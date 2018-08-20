@@ -7,19 +7,122 @@ p {
 ul {
 
 }
-.header {
+a:link, a:visited {
+    color: aliceblue;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    /* background-color:#C8EBE5; */
+    opacity: 1;
+    font-size: 2em;
 
+}
+a:hover {
+    opacity: 0.75;
+    font-size: 3em;
+}
+.murray {
+    background-image: url("https://images.wallpaperscraft.com/image/headphones_minimalism_pastel_122007_1920x1080.jpg");
+    margin: auto;
+    width: 100%;
+    background-position: center;
+    }
+.header-left {
+    color: #fff;
+    background-color: #C8EBE5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: right;
+    width: 45.2%;
+    float: left;
+    font-size: 1em;
+    height: 4em;
+    padding: 2em;
+}
+.header-right {
+    color: #fff;
+    background-color: #F9B9B7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: left;
+    width: 45.2%;
+    float: left;
+    font-size: 1em;
+    height: 4em;
+    padding: 2em;
 }
 .navigation {
-
+    /* padding: 10px;
+    background-color: #41b3a3;
+    height: 2em;
+    width: 100%; */
+    clear: both;
 }
+.navigation-list {
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    clear: both;
+    width: 30.7%;
+    height: 2em;
+}
+/* .navigation-list-center {
+    display: inline;
+    text-align: center;
+    padding: 1em;
+    width: 33.3%;
+}
+.navigation-list-right {
+    display: inline;
+    text-align: center;
+    padding: 1em;
+    width: 33.3%;
+} */
 .article {
-
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 10px;
+    background-color: antiquewhite;
+    opacity: 0.75;
+}
+.profilePic {
+    height: 270px;
+    width: 480px;
+    display: inline;
 }
 .footer {
-
+    padding: 1em;
+    height: 2em;
+    background-image: url("./images/backgroundStrip.png ");
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* align-items: center;     */
 }
+.footer-block {
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+    clear: both;
+    width: 30.7%;
+}
+
+
+/* .footer-sm {
+    text-align: center; */
+    /* display: inline; */
+}
+/* .footer-cr {
+    text-align: left;
+    display: inline;
+} */
 .contactUs {
+    width: 40%;
+    display: inline;
 
 }
 .float {
