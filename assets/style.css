@@ -139,9 +139,35 @@ a:hover {
     color: rgb(152, 160, 163);
     /* float: left; */
 }
-
 .float {
-
+    height: 8em;
+    width: 100%;
+    text-align: center;
+    /* overflow: auto; */
+}
+/* class for first float block  */
+.float-first {
+    position: relative;
+    /* top: 0; */
+    /* right: 5em;  */
+    margin-left: 3em;
+    height: 10em;
+    width: 10em;
+    background-color: aquamarine;
+    display: inline-block;
+    /* float: left; */
+}
+/* class for succeding float block */
+.float-block {
+    position: absolute;
+    /* top: 0; */
+    /* right: 3em; */
+    margin-left: 3em;
+    height: 10em;
+    width: 10em;
+    background-color: aquamarine;
+    display: inline-block;
+    /* float: left; */
 }
 .container {
     height: auto;
