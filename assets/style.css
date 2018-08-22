@@ -22,9 +22,7 @@ a:hover {
     opacity: 0.75;
     font-size: 3em;
 }
-a:active {
-    font-size: 3em;
-}
+
 .murray {
     background-image: url("./images/background.png");
     margin: auto;
@@ -63,6 +61,7 @@ header {
 }
 .navigation {
    clear: both;
+   text-align: center;
 }
 .navigation-list {
     display: inline-block;
@@ -75,7 +74,10 @@ header {
 
 /* active navigation text */
 /* .navigation-active {
-    font-size: 2.5em;
+    font-size: 1.5em;
+} */
+/* .navigation a.navigation-active:hover {
+    font-size: none;
 } */
 .article {
     width: 30%;
