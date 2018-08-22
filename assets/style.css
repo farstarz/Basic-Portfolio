@@ -5,7 +5,7 @@ p {
 
 }
 ul {
-
+    list-style: none;
 }
 a:link, a:visited {
     color: aliceblue;
@@ -22,12 +22,19 @@ a:hover {
     opacity: 0.75;
     font-size: 3em;
 }
+a:active {
+    font-size: 3em;
+}
 .murray {
-    background-image: url("https://images.wallpaperscraft.com/image/headphones_minimalism_pastel_122007_1920x1080.jpg");
+    background-image: url("./images/background.png");
     margin: auto;
     width: 100%;
     background-position: center;
     }
+ /* header */
+header {
+    width: 100%;
+}
 .header-left {
     color: #fff;
     background-color: #C8EBE5;
@@ -43,7 +50,7 @@ a:hover {
 }
 .header-right {
     color: #fff;
-    background-color: #F9B9B7;
+    background-color: #eac67c;
     font-family: 'Courier New', Courier, monospace;
     /* font-size: 2em; */
     text-align: left;
@@ -55,45 +62,41 @@ a:hover {
     padding: 2em;
 }
 .navigation {
-    /* padding: 10px;
-    background-color: #41b3a3;
-    height: 2em;
-    width: 100%; */
-    clear: both;
+   clear: both;
 }
 .navigation-list {
     display: inline-block;
     text-align: center;
     padding: 1em;
     clear: both;
-    width: 30.7%;
+    width: 28%;
     height: 2em;
 }
-/* .navigation-list-center {
-    display: inline;
-    text-align: center;
-    padding: 1em;
-    width: 33.3%;
-}
-.navigation-list-right {
-    display: inline;
-    text-align: center;
-    padding: 1em;
-    width: 33.3%;
+
+/* active navigation text */
+/* .navigation-active {
+    font-size: 2.5em;
 } */
 .article {
-    width: 70%;
+    width: 30%;
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 10px;
-    background-color: antiquewhite;
-    opacity: 0.75;
+    background-color: #eac67c;
+    opacity: 1;
+    display: inline-block;
+    text-align: justify;
+    font-size: 1em;
+    color: #fff;
+    position: absolute;
+    right: 3em;
 }
 .profilePic {
     /* height: 270px; */
     width: 40%;
     display: inline-block;
+    text-align: left;
 }
 .footer {
     padding: 1em;
@@ -111,22 +114,13 @@ a:hover {
     padding: 1em;
     clear: both;
     width: 30.7%;
-    color: rgb(152, 160, 163);
+    color: #984b43;
 }
 
 
-/* .footer-sm {
-    text-align: center; */
-    /* display: inline; */
-}
-/* .footer-cr {
-    text-align: left;
-    display: inline;
-} */
 .contactImg {
     height: auto;
     width: 40%; 
-    /* max-width: 480px; */
 }
 .contactUs {
     width: 40%;
@@ -136,44 +130,39 @@ a:hover {
     position: relative;
     right: 2em;
     top: -2em;
-    color: rgb(152, 160, 163);
-    /* float: left; */
+    color: #984b43;
 }
 .float {
     height: 8em;
     width: 100%;
     text-align: center;
-    /* overflow: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
 }
 /* class for first float block  */
 .float-first {
-    position: relative;
-    /* top: 0; */
-    /* right: 5em;  */
-    margin-left: 3em;
-    height: 10em;
-    width: 10em;
-    background-color: aquamarine;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 15em;
+    width: 15em;
+    background-color: #233237;
     display: inline-block;
-    /* float: left; */
-}
+ }
 /* class for succeding float block */
 .float-block {
-    position: absolute;
-    /* top: 0; */
-    /* right: 3em; */
-    margin-left: 3em;
-    height: 10em;
-    width: 10em;
-    background-color: aquamarine;
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 15em;
+    width: 15em;
+    background-color: #233237;
     display: inline-block;
-    /* float: left; */
 }
 .container {
     height: auto;
-    /* width: 480px; */
-    /* text-align: left; */
     overflow: auto;
+    position: relative;
 }
 .title {
     
