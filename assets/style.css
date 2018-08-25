@@ -22,47 +22,47 @@ a:hover {
     opacity: 0.75;
     font-size: 3em;
 }
-a:active {
-    font-size: 3em;
-}
+
 .murray {
     background-image: url("./images/background.png");
     margin: auto;
     width: 100%;
-    background-position: center;
-    }
+    background-position-x: 48.5%;
+    background-position-y: 10%;
+ }
  /* header */
-header {
+.header {
     width: 100%;
+    height: 10%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    background-image: url("./images/backgroundStrip.png ");
 }
 .header-left {
     color: #fff;
-    background-color: #C8EBE5;
+    /* background-color: #C8EBE5; */
     font-family: 'Courier New', Courier, monospace;
-    /* font-size: 2em; */
     text-align: right;
-    width: 45.15%;
-    /* float: left; */
-    display: inline-block;
-    font-size: 1em;
-    height: 4em;
-    padding: 2em;
+    font-size: 2em;
+    font-weight: 700;
 }
 .header-right {
     color: #fff;
-    background-color: #eac67c;
+    /* background-color: #eac67c; */
     font-family: 'Courier New', Courier, monospace;
-    /* font-size: 2em; */
     text-align: left;
-    width: 45.15%;
-    /* float: left; */
-    display: inline-block;
-    font-size: 1em;
-    height: 4em;
-    padding: 2em;
+    font-size: 2em;
+    font-weight: 700;
 }
 .navigation {
-   clear: both;
+   /* clear: both; */
+   text-align: center;
+   position: absolute;
+   top: 20%;
+   width: 100%;
 }
 .navigation-list {
     display: inline-block;
@@ -73,22 +73,18 @@ header {
     height: 2em;
 }
 
-/* active navigation text */
-/* .navigation-active {
-    font-size: 2.5em;
-} */
 .article {
     width: 30%;
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
-    padding: 10px;
-    background-color: #eac67c;
+    padding: 1em;
+    /* background-color: #eac67c; */
     opacity: 1;
     display: inline-block;
     text-align: justify;
-    font-size: 1em;
-    color: #fff;
+    font-size: 1.5em;
+    color: #984b43;
     position: absolute;
     right: 3em;
 }
@@ -98,17 +94,16 @@ header {
     display: inline-block;
     text-align: left;
 }
-.footer {
+#footer {
     padding: 1em;
     height: 2em;
     background-image: url("./images/backgroundStrip.png ");
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    /* position: fixed;
+    left: 0px;
+    bottom: 0px; */
     width: 100%;
-    /* align-items: center;     */
 }
-.footer-block {
+#footer-block {
     display: inline-block;
     text-align: center;
     padding: 1em;
@@ -117,7 +112,11 @@ header {
     color: #984b43;
 }
 
-
+.form {
+    position: absolute;
+    top: 40%;
+    text-align: left;
+}
 .contactImg {
     height: auto;
     width: 40%; 
@@ -139,7 +138,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    top: 50%;
+    top: 40%;
 }
 /* class for first float block  */
 .float-first {
@@ -160,9 +159,11 @@ header {
     display: inline-block;
 }
 .container {
-    height: auto;
+    /* height: auto; */
     overflow: auto;
-    position: relative;
+    /* position: absolute; */
+    /* top: 30%;  */
+    padding: 1em;
 }
 .title {
     
