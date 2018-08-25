@@ -27,7 +27,8 @@ a:hover {
     background-image: url("./images/background.png");
     margin: auto;
     width: 100%;
-    background-position-x: 48.5%;
+    background-position: center;
+    /* background-position-x: 48.5%; */
     background-position-y: 10%;
  }
  /* header */
@@ -40,6 +41,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly ;
     background-image: url("./images/backgroundStrip.png ");
+    background-position: center;
 }
 .header-left {
     color: #fff;
@@ -72,21 +74,35 @@ a:hover {
     width: 28%;
     height: 2em;
 }
+.container {
+  /* height: auto; */
+  /* overflow: auto; */
+  position: absolute; 
+  top: 30%; 
+  padding: 1em;
+  width: 100%;
+}
 
-.article {
-    width: 30%;
+.subContainer {
+    width: 45%;
+    height: auto;
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 1em;
+    text-align: center;
     /* background-color: #eac67c; */
-    opacity: 1;
+    /* opacity: 1; */
     display: inline-block;
-    text-align: justify;
     font-size: 1.5em;
     color: #984b43;
-    position: absolute;
-    right: 3em;
+    /* position: absolute;
+    right: 3em; */
+}
+.article {
+  width: 70%;
+  text-align: justify;
+  margin: auto;
 }
 .profilePic {
     /* height: 270px; */
@@ -98,6 +114,8 @@ a:hover {
     padding: 1em;
     height: 2em;
     background-image: url("./images/backgroundStrip.png ");
+    background-position: center;
+    display: block;
     /* position: fixed;
     left: 0px;
     bottom: 0px; */
@@ -158,13 +176,7 @@ a:hover {
     background-color: #233237;
     display: inline-block;
 }
-.container {
-    /* height: auto; */
-    overflow: auto;
-    /* position: absolute; */
-    /* top: 30%;  */
-    padding: 1em;
-}
+
 .title {
     
 }
